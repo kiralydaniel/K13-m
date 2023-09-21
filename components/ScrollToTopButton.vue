@@ -1,5 +1,5 @@
 <template>
-  <button v-if="showButton" class="scroll-button" @click="scrollToTop">
+  <button v-if="showButton" class="scroll-button rounded-lg" @click="scrollToTop">
     <span class="arrow-up"></span>
   </button>
 </template>
