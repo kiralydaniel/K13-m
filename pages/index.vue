@@ -1,6 +1,6 @@
 <template>
   <Carousel></Carousel>
-  <div class="relative isolate overflow-hidden bg-white px-6 sm:py-32 lg:overflow-visible lg:px-0">
+  <div class="relative isolate overflow-hidden bg-white px-6 sm:py-16 lg:overflow-visible lg:px-0">
       <div class="absolute inset-0 -z-10 overflow-hidden">
       <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
         <defs>
@@ -14,5 +14,18 @@
         <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
       </svg>
     </div>
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <h1 class="text-5xl font-bold text-gray-900 sm:text-7xl">K<span class="text-sky-400">13</span> MESTER</h1>
+      <p class="mt-10">Igen ide kellene egy bemutatkozás</p>
+      <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime est obcaecati nesciunt harum quam officiis ratione eius quia beatae laborum provident debitis, et minima nostrum illum quod optio architecto?</p>
+      <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime est obcaecati nesciunt harum quam officiis ratione eius quia beatae laborum provident debitis, et minima nostrum illum quod optio architecto?</p>
+      <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime est obcaecati nesciunt harum quam officiis ratione eius quia beatae laborum provident debitis, et minima nostrum illum quod optio architecto?</p>
+      <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime est obcaecati nesciunt harum quam officiis ratione eius quia beatae laborum provident debitis, et minima nostrum illum quod optio architecto?</p>
     </div>
+  </div>
+
+
+
+
+
 </template>
