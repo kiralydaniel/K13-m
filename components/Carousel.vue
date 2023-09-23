@@ -2,11 +2,11 @@
     <div class="max-w-full">
       <div class="relative">
 
-        <div class="relative h-[336px] overflow-hidden rounded-lg sm:h-[384px] xl:h-[480px] 2xl:h-[576px]">
+        <div class="relative h-[255px] overflow-hidden rounded-lg sm:h-[384px] xl:h-[480px] 2xl:h-[576px]">
 
           <div id="carousel-item-1" class="hidden duration-1000 ease-in-out">
             <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-            <img src="/carousel1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2  left-1/2" alt="...">
+            <img src="/carousel1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           </div>
 
           <div id="carousel-item-2" class="hidden duration-1000 ease-in-out">
@@ -14,12 +14,12 @@
           </div>
 
           <div id="carousel-item-3" class="hidden duration-1000 ease-in-out">
-            <img src="/carousel3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-3/4 left-1/2" alt="...">
+            <img src="/carousel3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 md:top-3/4 left-1/2" alt="...">
           </div>
 
           
           <div id="carousel-item-4" class="hidden duration-1000 ease-in-out">
-            <img src="/carousel4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-3/4 left-1/2" alt="...">
+            <img src="/carousel4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 md:top-3/4 left-1/2" alt="...">
           </div>
         </div>
 
