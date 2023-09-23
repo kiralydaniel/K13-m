@@ -6,15 +6,20 @@
 
           <div id="carousel-item-1" class="hidden duration-1000 ease-in-out">
             <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-            <img src="/carousel07.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2  left-1/2" alt="...">
+            <img src="/carousel01.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2  left-1/2" alt="...">
           </div>
 
           <div id="carousel-item-2" class="hidden duration-1000 ease-in-out">
-            <img src="/carousel06.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-3/4 left-1/2" alt="...">
+            <img src="/carousel02.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-3/4 left-1/2" alt="...">
           </div>
 
           <div id="carousel-item-3" class="hidden duration-1000 ease-in-out">
-            <img src="/carousel05.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-3/4 left-1/2" alt="...">
+            <img src="/carousel03.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-3/4 left-1/2" alt="...">
+          </div>
+
+          
+          <div id="carousel-item-4" class="hidden duration-1000 ease-in-out">
+            <img src="/carousel04.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-3/4 left-1/2" alt="...">
           </div>
         </div>
 
@@ -22,6 +27,7 @@
           <button id="carousel-indicator-1" type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"></button>
           <button id="carousel-indicator-2" type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"></button>
           <button id="carousel-indicator-3" type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"></button>
+          <button id="carousel-indicator-4" type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"></button>
         </div>
 
         <button id="data-carousel-prev" type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none">
@@ -58,6 +64,10 @@ onMounted(() => {
             position: 2,
             el: document.getElementById('carousel-item-3')
         },
+        {
+            position: 3,
+            el: document.getElementById('carousel-item-4')
+        },
     ];
     const options = {
         defaultPosition: 1,
@@ -78,6 +88,10 @@ onMounted(() => {
                 {
                     position: 2,
                     el: document.getElementById('carousel-indicator-3')
+                },
+                {
+                    position: 3,
+                    el: document.getElementById('carousel-indicator-4')
                 },
             ]
         },
