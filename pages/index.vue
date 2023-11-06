@@ -16,7 +16,6 @@
     </div>
     <div class="mx-auto max-w-2xl lg:text-center">
       <h1 class="text-5xl font-bold text-gray-900 sm:text-7xl">K<span class="text-sky-400">13</span> MESTER</h1>
-      <p class="mt-10">Igen ide kellene egy bemutatkozás</p>
       <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime est obcaecati nesciunt harum quam officiis ratione eius quia beatae laborum provident debitis, et minima nostrum illum quod optio architecto?</p>
       <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime est obcaecati nesciunt harum quam officiis ratione eius quia beatae laborum provident debitis, et minima nostrum illum quod optio architecto?</p>
       <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime est obcaecati nesciunt harum quam officiis ratione eius quia beatae laborum provident debitis, et minima nostrum illum quod optio architecto?</p>
